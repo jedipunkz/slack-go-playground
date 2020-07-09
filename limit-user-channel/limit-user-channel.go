@@ -34,13 +34,7 @@ func init() {
 }
 
 func main() {
-	if getExecLimitUser("US1537YGM") {
-		fmt.Println("ok")
-	} else {
-		fmt.Println("not ok")
-	}
-
-	if getExecLimitChannel("xixixi") {
+	if getExecLimitUser("US1537YGM") || getExecLimitChannel("xixixi") {
 		fmt.Println("ok")
 	} else {
 		fmt.Println("not ok")
