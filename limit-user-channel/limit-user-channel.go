@@ -56,7 +56,7 @@ func getExecLimitUser(slackUserID string) bool {
 }
 
 func getExecLimitChannel(channelID string) bool {
-	allowedChannels := viper.GetStringSlice("samplebot.limits.channel")
+	allowedChannels := viper.GetStringSlice("samplebot.limits.channels")
 
 	for _, allowedChannel := range allowedChannels {
 		if channelID == allowedChannel {

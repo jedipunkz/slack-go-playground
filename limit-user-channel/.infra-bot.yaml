@@ -1,0 +1,10 @@
+samplebot:
+  limits:
+    users:
+    - name: Tomokazu HIRAI
+      id: US1537YGM
+    - name: Mizumoto san
+      id: xxxxxx
+    channels:
+      - xixixi
+      - x0x0x0x0
